@@ -25,6 +25,8 @@ private slots:
     void startMonitoring();
     void onDirectoryChanged(const QString& path);
 
+    void on_btnStop_clicked();
+
 private:
     void syncFile(const QString& path);
     void log(const QString& message);
